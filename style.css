@@ -1,0 +1,71 @@
+.bloco1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 300vh;
+    height: 16vh;
+    background: rgb(182, 156, 156);
+    background-color: #e6e6e6;
+    padding: 3vh 8vh 10vh 6vh;
+    width: 31%;
+    border-radius: 4vh;
+    box-shadow: 0 10vh 30vh rgba(0, 0, 0, 0.1);
+}
+.bloco2{
+    display: flex;
+    justify-self: left;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 4vh;
+    width: 300vh;
+    height: 40vh;
+    background: rgb(182, 156, 156);
+    background-color: #e6e6e6;
+    padding: 2.5vh 2.5vh 2.5vh 2.5vh;
+    width: 31%;
+    border-radius: 4vh;
+    box-shadow: 0 10vh 30vh rgba(0, 0, 0, 0.1);
+
+}
+button{
+    margin-right: 7vh;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(182, 156, 156);
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    justify-self: left;
+    align-items: center;
+    margin: auto;   
+}
+
+.texto{
+    margin-bottom: 1vh;
+}
+
+.textos{
+    display: inline-flex;
+    flex-direction: column;
+    text-transform: capitalize;
+
+    margin-bottom: 10vh;
+}
+
+
+label{
+    margin-bottom:2vh;
+}
+
+input{
+    border-radius: 1vh;
+}
